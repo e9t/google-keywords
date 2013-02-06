@@ -1,4 +1,4 @@
-2012 LG-SNU Smart TV Project Team
+Get Google Keywords
 =================================
 
 ### Preparation
@@ -23,3 +23,6 @@
     
     python crawlers/crawler.py 'query here'
 	python utils/keywords.py 'query here'
+
+### Authors
+2012 LG-SNU Smart TV Project Team
