@@ -13,7 +13,7 @@ Get Google Keywords
 
 - TARGET: Either 'news' or 'blog'
 - QUERYLIST: List of queries
-- HTMLPATH: Path to save html files. (Paths should end with a slash ('/')
+- HTMLPATH: Path to save html files. (Paths should end with a slash)
 - KEYWORDPATH = 'data/keywords/'
 - NCRAWLPAGES: Number of search pages to crawl from Google
 - DELIMS: Delimiters for parsing words in HTML page
@@ -46,7 +46,7 @@ If `HTMLPATH='data/html/'` and `KEYWORDPATH='data/keywords/` in `settings.py`, t
           {
             "url": "http://smartdatacollective.com/timoelliott/101486/analytics-world-news-big-data-cool-3d-analytics", 
             "desc": "Themos Kalafatis has worked as a consultant for , Text Mining, Information Extraction and Data Quality for over a decade. More \u00bb ", 
-            "crawled_time": "20130207_192648",
+            "crawled_time": "20120907_192648",
             "page_no": 1,
             "title": "Scary Big Data, Cool 3D Analytics and More"
           },
