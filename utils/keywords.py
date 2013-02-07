@@ -51,6 +51,10 @@ def get_keywords(querylist, delims, input_path, output_path, crawled_date):
     pprint(keywords[0:config.NPRINTWORDS])
 
     outp = output_filename(queries)
+
+    if not os.path.exists(output_path):
+        os.makedirs(output_path)
+
     with open(output_path + outp, 'w') as f:
         # json.dump(d, f, indent=2)
         for k in keywords:

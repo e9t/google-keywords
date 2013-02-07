@@ -5,12 +5,10 @@ import get_html
 import extract_html
 from time import strftime, localtime
 
-def crawler(querylist):
-    path = 'data/html/google_news_search/'
-    npages = 100
+def crawler(target, querylist, path, npages):
 
     print '---Crawling-----'
-    get_html.search_google('news', querylist, npages, path)
+    get_html.search_google(target, querylist, npages, path)
 
 
     print '---Extracting-----'
@@ -24,4 +22,5 @@ if __name__ == '__main__':
         querylist = sys.argv[1:]
     else:
         querylist = [u'tv contents']
-    crawler(querylist)
+    path = 'data/google_blog_search/html'
+    crawler('news', querylist, path, 10)
