@@ -32,11 +32,11 @@ or set `QUERYLIST=['data', 'mining']` in `settings.py`, and run
 ### Results
 If `HTMLPATH='data/html/'` and `KEYWORDPATH='data/keywords/` in `settings.py`, the search results and keywords are stored in the 'data' folder as below.
 
-    data
-        ├── html
+    data/
+        ├── html/
         │   ├── data_mining/
         │   └── data_mining-20120907.json
-        └── keywords
+        └── keywords/
             └── keywords-data_mining.json
 
 - **data/html/data_mining/**: This folder contains the raw HTML files. File names are marked with a timestamp.
