@@ -6,7 +6,13 @@ Get Google Keywords
 - Mac OS X:
 
 		pip install nltk
-    
+
+- Install stopwords: From `nltk.download()` select `corpus/stopwords`
+
+        $ python
+        >>> import nltk
+        >>> nltk.download()
+
 ### Configure settings
 
     vi settings.py
