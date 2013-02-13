@@ -2,12 +2,11 @@ Get Google Keywords
 =================================
 
 ### Preparation
-- Windows: Install [NLTK](http://nltk.org/install.html) 
-- Mac OS X:
+- Install python packages `lxml`, `html5lib`, `nltk` (Linux users need to apt-get `python-dev`, `python-lxml` as well.)
 
-		pip install nltk
+        $ pip install lxml html5lib nltk
 
-- Install stopwords: From `nltk.download()` select `corpus/stopwords`
+- From `nltk.download()` select and install `corpus/stopwords`
 
         $ python
         >>> import nltk
